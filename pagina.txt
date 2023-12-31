@@ -1,0 +1,184 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div className="bg-orange-300">
+          <div className = " h-[570px] bg-red-900 "
+      
+      >
+       <nav className ="flex  flex-col  pt-40 pl-40  lg:flex-row lg:pl-32 lg:pt-20  lg:space-x-4">
+       <div className="flex justify-center lg:justify-left">
+       <Image
+          src="/Img/jj.png"
+          width= {100}
+          height={100}
+          alt="ho"
+        />
+       </div>
+       <div>
+        <h1 className=" text-center  lg:text-left text-2xl font-bold text-gray-400">Jonh Clein </h1>
+        <h2 
+        className= " text-center  lg:text-left text-xl font-bold text-gray-400">Service</h2>
+       </div>
+  
+      
+       </nav>
+       <div className=" pl-32 pt-20 flex space-x-36">
+      
+        <div className="">
+        <video  className= "mt-14 w-[400px] " autoPlay muted  playsInline>
+          <source src="/Img/p2.mp4" type="video/mp4" />
+          Tu navegador no soporta el elemento de video.
+        </video>
+        </div>
+        <div className="pt-14 w-[600px]">
+          <h1 
+          className="text-black font-bold text-3xl"> Desarrollo Android sin Limites: Curso Completo de Firebase</h1>
+         <h2 className= " w-[390px] text-black text-xl">Se indispensable para tu Equipo. No te pierdas esta oportunidad</h2>
+        </div>
+       </div>
+  
+  
+  
+      </div>
+        </div>
+/////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <section className=" h-[600px] py-40 pl-44  flex space-x-40">
+      <form className= " rounded pt-10 px-10 mb-40 bg-gray-200 w-[400px] h-[340px] flex flex-col gap-2">
+          <h1 className="text-orange-500 font-bold text-xl">Dejanos tus datos enviarte para mas conocimeinto de Calidad !  </h1>
+          <label className="font-bold">Nombre</label>
+          <input 
+          className=" rounded"
+            type="text"
+          />
+          <label className="font-bold">Correo </label>
+          <input 
+           className=" rounded"
+            type= "email"
+          />
+
+          <button className="p-3 font-bold text-white text-xl mt-30 bg-orange-500 hover:font-bold "> Comprar</button>
+      </form>
+
+    <div className="">
+   <Image
+        src="/Img/firebaseA.png"
+        width= {500}
+        height={200}
+        alt="ho"
+      />
+
+    </div>
+    </section>
+
+    <h1 className=" text-3xl font-bold text-center p-30"> Lo que obtendras al incorpar Firebase en tus Aplicaciones Android</h1>
+    
+    
+    
+    
+    
+    <section className= "pt-10   h-[500px] flex space-x-10 justify-center ">
+   
+      <div className="p-6 w-[300px] h-[440px] bg-orange-400">
+        <h2 className="text-gray-200 font-bold text-2xl">Alojamiento Confiable</h2>
+        <p className="text-white ">
+          Los usuarios podran acceder de manera rapida y segura a tu aplicacion gracias a los modos optimos de autentificacion que ofrece Firebase
+        </p>
+        <div className="flex justify-center pt-24">
+        <BsFillPersonCheckFill className="text-white text-6xl " />
+        </div>
+      </div>
+      <div className="p-6 w-[300px] h-[440px] bg-orange-400">
+        <h2 className="text-gray-200 font-bold text-2xl">Base de Datos Escalables</h2>
+        <p className="text-white ">
+          Firebase proporciona un manejo eficiente de la informacion con un acceso rapido y seguro a tu aplicacion. Sin la necesidad de utilizar servidores
+        </p>
+         
+        <div className="flex justify-center pt-24" >
+        <BsDatabaseCheck className="text-white text-6xl" />
+        </div>
+      </div>
+      <div className=" p-6 w-[300px] h-[440px] bg-orange-400">
+        <h2 className="text-gray-200 font-bold text-2xl">Desarrollo  Gratuito y Herramienta de Analisis</h2>
+        <p className="text-white ">
+          Firebase  ofrece un comienzo gratuito del uso de sus herramientas. Entre otros recursos incluye Google Analitic y servicio de hosting gratuito
+        </p>
+        <div className="flex justify-center pt-20">
+        <AiFillTool className="text-white text-6xl" />
+        </div>
+      </div>
+
+    </section>
+
+    <div className="bg-white mt-10 flex justify-center">
+         <Image
+        src="/Img/titulo.png"
+        width= {900}
+        height={400}
+        alt="ho"
+      />
+      </div>
+   <div className="flex justify-center " >
+   <video  className= "mt-14 w-[800px] " autoPlay muted  playsInline>
+        <source src="/Img/temario.mp4" type="video/mp4" />
+        Tu navegador no soporta el elemento de video.
+      </video>
+   </div>
+   <div className=" bg-color3 mt-10 flex justify-center">
+   <video  className= "mt-14 w-[800px] " autoPlay muted  playsInline>
+        <source src="/Img/bono2.mp4" type="video/mp4" />
+        Tu navegador no soporta el elemento de video.
+      </video>
+      </div>
+
+      <div className= " mt-10 mb-10 flex justify-center">
+        <button className=" rounded font-bold text-white p-4 text-2xl bg-orange-500"> Comprar AHORA</button>
+      </div>
+    <footer className= " bg-red-400 p-10 text-center text-white">
+      <h2 className="font-bold text-2xl">Alguna duda? Comunicate con nosotros</h2>
+      <p>William-Champion@outlook.com</p>
+    </footer>
+   </div>
+  )
