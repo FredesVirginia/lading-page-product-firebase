@@ -51,7 +51,7 @@ export default function Home() {
         loading: 'Cargando...',
         success: (resolved) => {
           console.log("SE LOGORO PARECE ");
-          router.push('https://go.hotmart.com/T88410936L?dp=1'); // Redirige a la página 'home' después de que la notificación se cierre
+          window.location.href = 'https://go.hotmart.com/T88410936L?dp=1'; // Redirige a la página 'home' después de que la notificación se cierre
           return resolved;
         },
       }
