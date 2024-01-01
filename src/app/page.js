@@ -30,7 +30,8 @@ export default function Home() {
   };
 
   const onClick = () =>{
-    router.push('https://go.hotmart.com/T88410936L?dp=1');
+    
+    window.location.href = 'https://go.hotmart.com/T88410936L?dp=1';
   }
 
  const onSubmit = async (e)=>{
