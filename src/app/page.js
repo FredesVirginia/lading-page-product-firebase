@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import toast from 'react-hot-toast';
 import Image from 'next/image';
-import Nav2 from "@/componentes/Nav2"
+
 import { BsDatabaseCheck } from "react-icons/bs";
 import { BsFillPersonCheckFill } from "react-icons/bs";
 import { AiFillTool } from "react-icons/ai";
@@ -36,8 +36,7 @@ export default function Home() {
 
  const onSubmit = async (e)=>{
    
-  e.preventDefault(); // Prevenir el comportamiento predeterminado del formulario
-
+  e.preventDefault();
   console.log('Por el submit');
 
   try {
@@ -121,7 +120,7 @@ export default function Home() {
 
       <section className=" h-[600px]  mt-[400px] lg:mt-20  flex  flex-col lg:px-20 lg:flex-row lg:justify-between">
         <form  onSubmit={(e) => onSubmit(e)} className=" rounded  pt-10 px-5 lg:px-10 w-[300] bg-gray-200 lg:w-[400px] h-[340px] flex flex-col gap-2">
-          <h1 className="text-orange-500 font-bold text-xl">Dejanos tus datos enviarte para mas conocimeinto de Calidad !  </h1>
+          <h1 className="text-orange-500 font-bold text-xl">Dejanos tus datos para enviarte  mas conocimiento de Calidad !  </h1>
           <label className="font-bold">Nombre</label>
           <input
             className=" rounded"

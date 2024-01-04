@@ -7,15 +7,15 @@ import { getFirestore , collection , addDoc , getDoc ,
 
 
   
-const firebaseConfig = {
-  apiKey: "AIzaSyBBa5m9hvhvWVCeWhsQAKDf478FsUxCpMg",
-  authDomain: "ladingpage-firebase.firebaseapp.com",
-  projectId: "ladingpage-firebase",
-  storageBucket: "ladingpage-firebase.appspot.com",
-  messagingSenderId: "197705559038",
-  appId: "1:197705559038:web:24a44704f4961174f26eaf",
-  measurementId: "G-8L3FGL9D3X"
-};
+  const firebaseConfig = {
+    apiKey: "AIzaSyDXEuRabyzzKIi1KtlZdQTSUJhpAYY2mOI",
+    authDomain: "ladingfirebase.firebaseapp.com",
+    projectId: "ladingfirebase",
+    storageBucket: "ladingfirebase.appspot.com",
+    messagingSenderId: "939931282241",
+    appId: "1:939931282241:web:547cbf0834acbaa5824fc0",
+    measurementId: "G-KNP5BSXVTY"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
